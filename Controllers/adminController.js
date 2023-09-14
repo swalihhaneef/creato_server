@@ -2,8 +2,8 @@ const userModel = require('../Model/UserSchema')
 const PostModel = require('../Model/postSchema')
 const bcrypt = require('bcrypt')
 const { generateToken } = require('../Middlewere/auth')
-const { db } = require('../Model/firebase')
-const { getDocs, collection, doc, getDoc, query, where, updateDoc } = require('firebase/firestore')
+// const { db } = require('../Model/firebase')
+// const { getDocs, collection, doc, getDoc, query, where, updateDoc } = require('firebase/firestore')
 const adminLogin = async (req, res) => {
     try {
         const { email, password } = req.body
