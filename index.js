@@ -4,7 +4,7 @@ const mongoose = require('mongoose')
 const cors = require('cors')
 const http = require('http').createServer(app)
 const socket = require('socket.io')
-const userController = require('../server/Controllers/userController')
+const userController = require('./Controllers/userController')
 const env = require('dotenv').config()
 mongoose.connect(process.env.mongoDb, {
         useNewUrlParser: true,
