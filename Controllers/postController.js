@@ -2,9 +2,9 @@ const userModel = require('../Model/UserSchema')
 const PostModel = require('../Model/postSchema')
 const notificationModel = require('../Model/notificationModel')
 const commentModel = require('../Model/commentModel')
-const { db, storage } = require('../Model/firebase')
-const { collection, getDoc, getDocs, updateDoc, arrayUnion, doc, arrayRemove, query, where } = require('firebase/firestore')
-const { ref, uploadBytes, getDownloadURL } = require('firebase/storage')
+// const { db, storage } = require('../Model/firebase')
+// const { collection, getDoc, getDocs, updateDoc, arrayUnion, doc, arrayRemove, query, where } = require('firebase/firestore')
+// const { ref, uploadBytes, getDownloadURL } = require('firebase/storage')
 const statusModel = require('../Model/status')
 
 
