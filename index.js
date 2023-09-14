@@ -22,7 +22,7 @@ app.use('/admin',adminRouter)
 
 
 const server=http.listen(process.env.port,() =>{
-    console.log('server running');
+    console.log('server running on port', process.env.port);
 })
 
 const io = socket(server, {
